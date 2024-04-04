@@ -8,7 +8,7 @@ function palindrome(str){
 		}
 	}
 	let i = 0;
-	let j = a.length;
+	let j = a.length-1;
 	while (j>i){
 		if (a[i]!==a[j]){
 			return false
