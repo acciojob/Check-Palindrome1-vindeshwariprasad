@@ -4,7 +4,7 @@ function palindrome(str){
 	let a = "";
 	for (let k of str){
 		if (k!==" "){
-			a+=k;
+			a+=k.toLowerCase();
 		}
 	}
 	let i = 0;
